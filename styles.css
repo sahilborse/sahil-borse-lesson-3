@@ -1,8 +1,69 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+:root{
+    --primary-color: blue;
+}
+
+
+
 body{font-family: 'Poppins', sans-serif;
 
 
 bodybackground-color: blue;}
 h1{color: red;}
+.sahil{font-size: larger;
+font-weight: 900;}
+.fluid-container{
+padding-left: 2rem;
+padding-right: 3rem;
+}
+.container{
+
+margin:auto;
+max-width: fit-content;
+}
+
+.little
+{
+   caret-color: aquamarine;
+   border-radius: 2rem 2rem;
+   text-overflow: var(--primary-color);
+   text-decoration-color: blue;
+   text-decoration: solid;
+   text-underline-position: auto;
+
+
+
+
+}
+.list-linline{
+display: inline-block;
+text-decoration-style: solid;
+text-decoration-color: rgb(255, 0, 149);
+position: static;
+
+
+
+
+}
+.not-want-bullet{
+list-style: none;
+
+
+}
+.link-primary{
+    text-decoration: none;
+    border-style: initial;
+    padding: 1rem 1rem;
+    color: var(--primary-color);
+    
+    border-radius: 2rem;
+}
+.link-secondary{ padding-left: 7rem3;
+padding-right: 4rem;
+text-decoration: none;
+
+
+}
