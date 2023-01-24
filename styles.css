@@ -13,19 +13,23 @@ body{font-family: 'Poppins', sans-serif;
 
 
 bodybackground-color: rgb(144, 187, 181);}
+
 h1{color: red;}
 .sahil{font-size: larger;
-font-weight: 900;}
+ font-weight: 900;
+}
+
+
 .fluid-container{
-padding-left: 2rem;
-padding-right: 3rem;
+ padding-left: 2rem;
+ padding-right: 3rem;
 }
 .container{
     color:yellowgreen;
     
   font-size: var(--primary-font-size);
-margin:auto;
-max-width: fit-content;
+ margin:auto;
+ max-width: fit-content;
 }
 
 .little
@@ -38,25 +42,27 @@ max-width: fit-content;
    
    margin: auto;
 
-
+}
 /**want links beautified**/
 
-}
+
+
+
 .list-linline{
-display: inline-block;
-text-decoration-style: solid;
-text-decoration-color: rgb(255, 0, 149);
-position: static;
-
-
-
-
+ display: inline-block;
+ text-decoration-style: solid;
+ text-decoration-color: rgb(255, 0, 149);
+ position: static;
 }
+
+
+
+
 .not-want-bullet{
-list-style: none;
+  list-style: none;
+  }
 
 
-}
 .link-primary{
     text-decoration: none;
     border-style: initial;
@@ -65,26 +71,26 @@ list-style: none;
     
     border-radius: 2rem;
 }
+
+
 .link-secondary{ padding-left: 7rem3;
-padding-right: 4rem;
-text-decoration: none;
-
-
+   padding-right: 4rem;
+   text-decoration: none;
 }
+
+
 /**want navigation beautified**//
 .navi{
     background-color: var(--primary-color);
     color: white;
 
-   text-align: end;
+   
    padding: 2rem 2rem;
-
 }
+.navi.code-red{text-align: end;}
 
 
 .code-red{
     color: white;
-
-
 
 }
