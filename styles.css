@@ -82,7 +82,7 @@ h1{color: red;}
 /**want navigation beautified**//
 .navi{
     background-color: var(--primary-color);
-    color: white;
+    color: rgb(223, 16, 51);
 
    
    padding: 2rem 2rem;
