@@ -4,6 +4,7 @@
 
 :root{
     --primary-color: blue;
+    --primary-font-size:3rem;
 }
 
 
@@ -11,7 +12,7 @@
 body{font-family: 'Poppins', sans-serif;
 
 
-bodybackground-color: blue;}
+bodybackground-color: rgb(144, 187, 181);}
 h1{color: red;}
 .sahil{font-size: larger;
 font-weight: 900;}
@@ -20,22 +21,25 @@ padding-left: 2rem;
 padding-right: 3rem;
 }
 .container{
-
+    color:yellowgreen;
+    
+  font-size: var(--primary-font-size);
 margin:auto;
 max-width: fit-content;
 }
 
 .little
 {
-   caret-color: aquamarine;
-   border-radius: 2rem 2rem;
+   
+   
    text-overflow: var(--primary-color);
    text-decoration-color: blue;
    text-decoration: solid;
-   text-underline-position: auto;
+   
+   margin: auto;
 
 
-
+/**want links beautified**/
 
 }
 .list-linline{
@@ -64,6 +68,23 @@ list-style: none;
 .link-secondary{ padding-left: 7rem3;
 padding-right: 4rem;
 text-decoration: none;
+
+
+}
+/**want navigation beautified**//
+.navi{
+    background-color: var(--primary-color);
+    color: white;
+
+   text-align: end;
+   padding: 2rem 2rem;
+
+}
+
+
+.code-red{
+    color: white;
+
 
 
 }
