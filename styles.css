@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 :root{
-    --primary-color: blue;
+    primary-color: rgb(24, 24, 224);
     --primary-font-size:3rem;
 }
 
@@ -49,7 +49,7 @@ h1{color: red;}
  display: inline-block;
  text-decoration-style: solid;
  text-decoration-color: rgb(255, 0, 149);
- position: static;
+ 
 }
 
 .not-want-bullet{
@@ -77,6 +77,9 @@ h1{color: red;}
    
    padding: 2rem 2rem;
 }
+.navi.list-linline{
+    padding: 0rem 5rem;
+}
 
 .navi.new-brand{font-weight: bolder;
 font-size: large;
@@ -86,6 +89,7 @@ font-display: bold;}
     color: rgb(148, 25, 111);
 
 }
+.
 .hero{
 
     padding: 1rem
