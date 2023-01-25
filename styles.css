@@ -78,7 +78,28 @@ h1{color: red;}
    padding: 2rem 2rem;
 }
 
+.navi.new-brand{font-weight: bolder;
+font-size: large;
+font-display: bold;}
+
 .code-red{
     color: rgb(148, 25, 111);
 
+}
+.hero{
+
+    padding: 1rem
+    2rem;
+    font-weight: bold;
+    margin: auto;
+    border-radius: 2rem;
+}
+.hero.hero-img{
+    margin: auto;
+    display: block;
+    size: 2rem;
+}
+.hero.hero-font{
+    margin: auto;
+    color: var(--primary-color);
 }
