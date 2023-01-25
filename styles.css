@@ -71,14 +71,15 @@ h1{color: red;}
 
 /**want navigation beautified**//
 .navi{
-    background-color: var(--primary-color);
+    background-color: yellowgreen;
     color: rgb(223, 16, 51);
 
    
    padding: 2rem 2rem;
 }
 .navi.list-linline{
-    padding: 0rem 5rem;
+    padding: 3rem 5rem;
+
 }
 
 .navi.new-brand{font-weight: bolder;
