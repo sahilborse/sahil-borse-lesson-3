@@ -45,9 +45,6 @@ h1{color: red;}
 }
 /**want links beautified**/
 
-
-
-
 .list-linline{
  display: inline-block;
  text-decoration-style: solid;
@@ -55,13 +52,8 @@ h1{color: red;}
  position: static;
 }
 
-
-
-
 .not-want-bullet{
-  list-style: none;
-  }
-
+  list-style: none; }
 
 .link-primary{
     text-decoration: none;
@@ -72,12 +64,10 @@ h1{color: red;}
     border-radius: 2rem;
 }
 
-
 .link-secondary{ padding-left: 7rem3;
    padding-right: 4rem;
    text-decoration: none;
 }
-
 
 /**want navigation beautified**//
 .navi{
@@ -87,10 +77,8 @@ h1{color: red;}
    
    padding: 2rem 2rem;
 }
-.navi.code-red{text-align: end;}
-
 
 .code-red{
-    color: white;
+    color: rgb(148, 25, 111);
 
 }
