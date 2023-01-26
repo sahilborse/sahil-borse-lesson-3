@@ -12,12 +12,12 @@
 body{font-family: 'Poppins', sans-serif;
 
 
-bodybackground-color: rgb(144, 187, 181);}
+}
 
 h1{color: red;
 background-color: var(--primary-color);}
 .sahil{font-size: larger;
- font-weight: 900;
+ font-weight: 900rem;
 }
 
 
@@ -28,6 +28,7 @@ background-color: var(--primary-color);}
 .container{
     color:yellowgreen;
     font-size: xx-large;
+    font-weight: bolder;
     
   font-size: var(--primary-font-size);
  margin:auto;
