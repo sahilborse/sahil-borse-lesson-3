@@ -27,6 +27,7 @@ background-color: var(--primary-color);}
 }
 .container{
     color:yellowgreen;
+    font-size: xx-large;
     
   font-size: var(--primary-font-size);
  margin:auto;
