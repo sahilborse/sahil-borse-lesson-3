@@ -4,7 +4,7 @@
 
 :root{
     --primary-color:(#a1a1aa);
-    --primary-font-size:3rem;
+    --primary-font-size:(3rem);
 }
 
 
@@ -14,7 +14,8 @@ body{font-family: 'Poppins', sans-serif;
 
 bodybackground-color: rgb(144, 187, 181);}
 
-h1{color: red;}
+h1{color: red;
+background-color: var(--primary-color);}
 .sahil{font-size: larger;
  font-weight: 900;
 }
@@ -70,7 +71,9 @@ h1{color: red;}
 /**want navigation beautified**//
 .navi{
     background-color: yellowgreen;
-    color: rgb(223, 16, 51);
+    color: blue;
+    block-size: auto;
+
 
    
    padding: 2rem 2rem;
@@ -80,7 +83,7 @@ h1{color: red;}
     text-decoration: none;
     border-radius: 3rem;
     padding-left: 2rem;
-    padding nav-right: 2rem;
+    padding-right: 2rem;
 
 }
 
@@ -108,5 +111,6 @@ font-display: bold;}
 }
 .hero.hero-font{
     margin: auto;
-    color: var(--primary-color);
+    color: coral;
+
 }
